@@ -1,2 +1,2 @@
 # designingtuts
-For keeping currently learning tuts file scripts
+For keeping currently working project files

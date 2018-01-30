@@ -1,0 +1,28 @@
+p.mast {
+  color: grey;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 7px;
+}
+
+p.emp {
+  font-size:24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a.sites {
+  position: relative;
+  left: 15px;
+}
+
+p.number {
+  align="left";
+  color: #80ffff;
+  margin: 2px;
+}
+
+p.intro, blockquote  {
+  color: rgba(255, 255, 255, 0.3);
+}
