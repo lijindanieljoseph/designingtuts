@@ -9,9 +9,9 @@ file 'LICENSE.txt', which is part of this source code package.
 
 /* HOME BACKGROUND IMAGE */
 
-.mainCover {
+body {
   background-color: #000;
-  background-image: url('../img/geeks-background.jpg');
+  background-image: url('../img/coffee-839234_1920.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,14 +21,12 @@ file 'LICENSE.txt', which is part of this source code package.
 p.mast {
   color: rgba(255, 255, 255, 0.7);
   font-size: 50px;
-  float: left;
+  float: right;
   font-family: Poppins;
-  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  margin: 10px;
+/*  border: 0.5px solid rgba(255, 255, 255, 0.5);
   display: inline-block;
-  padding: 5px;
-  position: relative;
-  top: -38px;
-  left: 7px;
+  padding: 5px; */
 }
 
 /* DESCRIPTION */
@@ -36,9 +34,9 @@ p.mast {
 p.des {
   margin: 0.9%;
   position: absolute;
-  left: 42%;
-  top: 7.5%;
-  font-size:24px;
+  left: 76%;
+  top: 9.5%;
+  font-size:18px;
   font-family: courier;
   color: rgba(255, 255, 255, 0.7);
   padding: 5px;
@@ -48,8 +46,8 @@ p.des {
 
 a.sites {
   position: relative;
-  top: 75px;
-  left: 55px;
+  left: 28px;
+  top: 6%;
 }
 
 /* EMAIL */
@@ -60,8 +58,8 @@ a.mail:link {
   font-size: 18px;
   text-decoration: none;
   position: absolute;
-  left: 23%;
-  top: 17.5%;
+  left: 28px;
+  top: 9.5%;
 }
 
 a.mail:hover {
@@ -72,14 +70,6 @@ a:active {
   color:pink;
 }
 
-/* INTRO HEAD */
-
-h1.introspec {
-  margin:1%;
-  color: orange;
-  font-family: Poppins;
-}
-
 /* NUMBER */
 
 p.num {
@@ -87,8 +77,16 @@ p.num {
   color: #80ffff;
   margin: 0.07%;
   position: absolute;
-  left: 23%;
-  top: 15.5%;
+  left: 28px;
+  top: 7.4%;
+}
+
+/* INTRO HEAD */
+
+h1.introspec {
+  margin:1%;
+  color: orange;
+  font-family: Poppins;
 }
 
 /* INTRO */
