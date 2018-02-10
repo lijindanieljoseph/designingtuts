@@ -32,7 +32,7 @@ p.mast {
 /* DESCRIPTION */
 
 p.des {
-  margin: 0.9%;
+  margin-top: 2%;
   position: absolute;
   left: 76%;
   top: 9.5%;
@@ -42,14 +42,35 @@ p.des {
   padding: 5px;
 }
 
-/* EXTERNAL LINKS */
+/* List */
 
-a.sites {
-  position: relative;
-  left: 28px;
-  top: 6%;
+li {
+  float: left;
 }
 
+/* Styling all fa icons */
+
+.fa {
+    padding: 20px;
+    width: 20px;
+}
+
+/* hover effect */
+
+.fa:hover {
+	color: #fff ;
+	text-decoration: none;
+}
+
+.fa-github {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.fa-stack-overflow {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
 /* EMAIL */
 
 a.mail:link {
@@ -59,7 +80,7 @@ a.mail:link {
   text-decoration: none;
   position: absolute;
   left: 28px;
-  top: 9.5%;
+  top: 15.9%;
 }
 
 a.mail:hover {
@@ -78,13 +99,14 @@ p.num {
   margin: 0.07%;
   position: absolute;
   left: 28px;
-  top: 7.4%;
+  top: 13.4%;
 }
 
 /* INTRO HEAD */
 
 h1.introspec {
-  margin:1%;
+  margin-top: 5%;
+  margin-left: auto;
   color: orange;
   font-family: Poppins;
 }
@@ -92,6 +114,8 @@ h1.introspec {
 /* INTRO */
 
 p.intro, blockquote  {
+  margin-top: -1.5  %;
+  margin-left: 2%;
   color: rgba(255, 255, 255, 0.6);
   font-family: Poppins;
 }
